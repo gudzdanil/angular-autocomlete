@@ -1,0 +1,44 @@
+.gd_autocomplete * {
+    padding: 0;
+    margin: 0;
+}
+.gd_autocomplete{
+    position: relative;
+    width:142px;
+    display: inline-block;
+    height: 22px;
+}
+
+.gd_autocomplete > div{
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.gd_autocomplete input{
+    width: 120px;
+    padding: 0 10px;
+    height:22px;
+    border:1px solid #333;
+    border-radius: 3px;
+}
+.gd_autocomplete ul{
+    list-style: none;
+    width: 100%;
+    border-radius: 3px;
+}
+.gd_autocomplete li{
+    display: block;
+    height:22px;
+    font-size:14px;
+    line-height: 22px;
+    vertical-align: middle;
+    padding:0 10px;
+    border: 1px solid #aaa;
+    border-top:none;
+    cursor: pointer;
+    background: #fff;
+}
+
+.gd_autocomplete li:hover, .gd_autocomplete li.chosen{
+    background: #ccc;
+}
